@@ -1,0 +1,23 @@
+nav a:hover {
+    color: darkblue;
+    transition: ease-out 0.25s;
+    font-weight: 900;
+}
+ul li {
+    color: darkslategrey;
+    list-style: inside;
+    list-style-type: circle;
+}
+
+ol li {
+    color: darkslategrey;
+    list-style: inside;
+    list-style-type: decimal-leading-zero;
+}
+footer p {
+    font-size: 0.5rem;
+    color: darkslategrey;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
