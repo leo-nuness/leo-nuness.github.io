@@ -1,65 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leonardo Nunes</title>
-    <meta name="description" content="Léo está se tornando um dev">
+    <title>leonardo nunes</title>
+    <meta name="description" content="léo está se tornando um dev">
     <link rel="canonical" href="https://github.com/leo-nuness">
     <meta name="author" content="Leonardo Nunes">
-    <link rel="stylesheet" href="index.css"> <link rel="preload" href="style-async.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preload" href="style-async.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <noscript><link rel="stylesheet" href="style-async.css"></noscript>
+    <noscript>
+        <link rel="stylesheet" href="style-async.css">
+    </noscript>
     <link rel="icon" href="logo.svg" type="image/svg+xml">
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="menu">
-                <a href="index.html">início</a>
-                <a href="#sobre">sobre</a>
-                <a href="form.html">projetos</a>
-                <a href="#contato">contato</a>
-            </div>
-        </nav>
-        <br>
-        <h1>leonardo nunes</h1>
-        <p>contabilidade - ufmg | cpa 20</p>
-        <p>dev nas horas vagas</p>
+        <div>
+            <h1>leonardo nunes</h1>
+        </div>
+        <div class="descricao">
+            <p>contabilidade - ufmg | cpa 20</p>
+            <p>dev nas horas vagas</p>
+        </div>
+        <div>&nbsp;</div>
     </header>
 
     <main>
-        <section>
-            <h2>objetivo</h2>
-            <p>criei esse site para desenvolver minhas habilidades com:</p>
-            <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javascript</li>
-                <li>git</li>
-            </ul>
-        </section>
-        <section>
-            <h2>next steps</h2>
-            <p>o primeiro desafio, de publicar um site inteiramente desenvolvido por mim foi realizado.<br> os próximos passos são:</p>
-            <ol>
+
+        <div class="grid">
+            <div class="column2">
+                <div class="box">
+                    <h2>objetivo</h2>
+                    <p>criei esse site para desenvolver minhas habilidades com html, css, javascript e git</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <h2>next steps</h2>
+                <p>o primeiro desafio, de publicar um site inteiramente desenvolvido por mim foi realizado.<br> os
+                    próximos passos são:</p>
+            </div>
+            <div class="box">
                 <li>tornar a home bonita e agradável</li>
+            </div>
+            <div class="box">
                 <li>fazer o direcionamento para as side pages</li>
+            </div>
+            <div class="box">
                 <li>desafios do site <a href="https://devchallenges.io/">devchallenges.io</a></li>
+            </div>
+            <div class="box">
                 <li>otimizar site e loading</li>
+            </div>
+            <div class="box">
                 <li>adicionar animações impressionadoras</li>
-            </ol>
-        </section>
-        
+            </div>
+
+
+            <div class="column2">
+                <div class="box">
+                    <section class="item1">
+                        <h2>caixinhas</h2>
+                        <p>fazer quadrados arredondados que sâo adaptativos (estilo display flex, se ajustam)</p>
+                    </section>
+                    <section class="item2">
+                        <p>para esse novo desafio, vou aprender javascript</p>
+                    </section>
+                    <section class="item3">
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
     </main>
 
-    <footer>
-        <p>tudo foi escrito em letra minúscula de forma intencional | todos os direitos reservados</p>
-        </footer>
+    <aside>
+        <button href="">contato</button>
+    </aside>
 
-    <script src="script.js" defer></script> 
+    <footer>
+        <nav>
+            <div class="menu">
+                <button><a href="index.html">início</a></button>
+                <button><a href="#sobre">sobre</a></button>
+                <button><a href="form.html">projetos</a></button>
+                <button><a href="#contato">contato</a></button>
+            </div>
+        </nav>
+        <p>tudo foi escrito em letra minúscula de forma intencional | todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js" defer></script>
 </body>
+
 </html>
